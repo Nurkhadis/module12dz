@@ -15,8 +15,8 @@ namespace Module12HW
 
         public void StartRace()
         {
-            Console.WriteLine("The race is started!!");
-            StartRaceEvent?.Invoke("The race is started!");
+            Console.WriteLine("Race is started!!");
+            StartRaceEvent?.Invoke("Race is started!");
         }
 
         public void FinishRace(string winner)
